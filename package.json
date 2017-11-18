@@ -1,0 +1,29 @@
+{
+  "name": "live-slideshow",
+  "version": "1.0.0",
+  "description": "Display live photos from directory",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shalithasuranga/live-slideshow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shalithasuranga/live-slideshow/issues"
+  },
+  "homepage": "https://github.com/shalithasuranga/live-slideshow#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
